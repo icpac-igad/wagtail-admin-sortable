@@ -23,7 +23,7 @@ def sortable_result_list(context):
     context.update({
         'result_headers': headers,
         'num_sorted_fields': num_sorted_fields,
-        'results': list(results(view, object_list))})
+        'results': list(results(view, object_list, context['request']))})
     return context
 
 

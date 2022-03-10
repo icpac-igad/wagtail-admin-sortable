@@ -49,7 +49,7 @@ setup(
         'Framework :: Wagtail :: 2',
     ],
     install_requires=[
-        'wagtail>=1.8'
+        'wagtail>=2.15.0'
     ],
     packages=find_packages(exclude=['example', 'docs']),
     include_package_data=True,
